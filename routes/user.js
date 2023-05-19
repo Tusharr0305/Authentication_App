@@ -24,7 +24,7 @@ router.get("/student",auth,isStudent,(req,res)=>{
 router.get("/admin",auth,isAdmin,(req,res)=>{
     res.status(500).json({
     sucess:true,
-    message:`welcome to student section`
+    message:`welcome to  Admin section`
     });
 })
 module.exports=router;
